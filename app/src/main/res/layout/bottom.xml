@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#eeeeee"
+    android:paddingTop="10px"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_emoji"
+        android:layout_marginLeft="20px"
+        android:src="@drawable/ic_emoji"
+        android:layout_width="60px"
+        android:padding="10px"
+        android:background="@drawable/emoji_btn_bg"
+        android:layout_height="60px" />
+    <EditText
+        android:id="@+id/edt_comment"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_weight="1"
+        android:background="@drawable/emoji_btn_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="评论"
+        android:textSize="28px"
+        android:textColor="@color/drak_light"
+        android:id="@+id/btn_comment"
+        android:layout_width="120px"
+        android:background="@drawable/emoji_btn_bg"
+        android:layout_height="60px" />
+
+</LinearLayout>
